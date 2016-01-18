@@ -18,7 +18,7 @@ int solve(int n, int r){
 
 int main(void){
   int n, r;
-  while(cin >> n >> r, !( n==0 && r==0 )){
+  while(cin >> n >> r, n){
     cout << solve(n, r) << endl;
   }
   return 0;
