@@ -25,7 +25,7 @@ int solve(int n,int p){
 
 int main(void){
   int n, p;
-  while (cin >> n >> p, !(n==0&&p==0)){
+  while (cin >> n >> p,　n)){
     cout << solve(n, p) << endl;
   }
   return 0;
