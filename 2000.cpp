@@ -36,7 +36,7 @@ int solve(int N){
 }
  
 int main(void){
-  int N;
+  int N; 
   while(cin >> N, N) cout << (solve(N)?"Yse":"No") << endl;
   return 0;
 }
